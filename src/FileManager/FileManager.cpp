@@ -1,5 +1,9 @@
 #include "../include/FileManager.h"
 
-class FileManager::FileManager(){
+void FileManager::CreateFile(const string& path){
+
+}
+
+void FileManager::DeleteFile(const string& path){
     
 }
