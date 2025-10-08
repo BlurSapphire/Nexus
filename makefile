@@ -1,10 +1,10 @@
 .PHONY: build run clean
 
 build:
-	g++ -g -std=c++17 -o bin/Nexus src/Nexus.cpp
+	g++ -g -std=c++17 -o build/Nexus src/Nexus.cpp
 
 run: build
-	./bin/Nexus
+	./build/Nexus
 
 clean:
-	rm -f bin/Nexus
+	rm -f build/Nexus
